@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2476751 */
+  src: url('iconfont.woff2?t=1620453407824') format('woff2'),
+       url('iconfont.woff?t=1620453407824') format('woff'),
+       url('iconfont.ttf?t=1620453407824') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git:before {
+  content: "\e799";
+}
+
+.icon-database:before {
+  content: "\e6cb";
+}
+
+.icon-js:before {
+  content: "\e63b";
+}
+
+.icon-react:before {
+  content: "\e689";
+}
+
+.icon-aws:before {
+  content: "\e600";
+}
+
+.icon-linkedin:before {
+  content: "\e685";
+}
+
+.icon-github:before {
+  content: "\e629";
+}
+
+.icon-changyonglogo44:before {
+  content: "\e726";
+}
+
+.icon-Facebooklogo:before {
+  content: "\e6b5";
+}
+

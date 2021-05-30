@@ -1,0 +1,72 @@
+{
+  "id": "2476751",
+  "name": "personalweb",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "128958",
+      "name": "git",
+      "font_class": "git",
+      "unicode": "e799",
+      "unicode_decimal": 59289
+    },
+    {
+      "icon_id": "6145818",
+      "name": "database",
+      "font_class": "database",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "12600760",
+      "name": "js",
+      "font_class": "js",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "13304019",
+      "name": "react",
+      "font_class": "react",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "14343516",
+      "name": "aws",
+      "font_class": "aws",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "19603153",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "16880989",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "1005879",
+      "name": "Twitter",
+      "font_class": "changyonglogo44",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "10562712",
+      "name": "Facebook, logo",
+      "font_class": "Facebooklogo",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    }
+  ]
+}
