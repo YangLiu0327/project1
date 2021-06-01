@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/project1-react/static/css/main.9f71ad1d.chunk.css",
+    "main.js": "/project1-react/static/js/main.17c09823.chunk.js",
+    "main.js.map": "/project1-react/static/js/main.17c09823.chunk.js.map",
+    "runtime-main.js": "/project1-react/static/js/runtime-main.8db896fc.js",
+    "runtime-main.js.map": "/project1-react/static/js/runtime-main.8db896fc.js.map",
+    "static/js/2.a93ee027.chunk.js": "/project1-react/static/js/2.a93ee027.chunk.js",
+    "static/js/2.a93ee027.chunk.js.map": "/project1-react/static/js/2.a93ee027.chunk.js.map",
+    "static/js/3.30128ebf.chunk.js": "/project1-react/static/js/3.30128ebf.chunk.js",
+    "static/js/3.30128ebf.chunk.js.map": "/project1-react/static/js/3.30128ebf.chunk.js.map",
+    "index.html": "/project1-react/index.html",
+    "static/css/main.9f71ad1d.chunk.css.map": "/project1-react/static/css/main.9f71ad1d.chunk.css.map",
+    "static/js/2.a93ee027.chunk.js.LICENSE.txt": "/project1-react/static/js/2.a93ee027.chunk.js.LICENSE.txt",
+    "static/media/yang.84fb42c9.jpg": "/project1-react/static/media/yang.84fb42c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8db896fc.js",
+    "static/js/2.a93ee027.chunk.js",
+    "static/css/main.9f71ad1d.chunk.css",
+    "static/js/main.17c09823.chunk.js"
+  ]
+}
