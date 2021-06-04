@@ -1,5 +1,5 @@
 import { faLink } from '@fortawesome/free-solid-svg-icons';
-// import yangUrl from '../../assets/images/yang.jpg';
+import weatherUrl from '../../assets/images/weather.png';
 import React from 'react';
 import {
     Wrap, Title, TimeLines, Experince, ResumeProject, TimeLine,
@@ -25,9 +25,7 @@ const ResumePage = () => {
                                         </LiItem>
                                         <LiItem>Enable message sending, download resuem, format verification and responsive layout
                                         </LiItem>
-                                        {/* <Img src={yangUrl}></Img> */}
                                     </ul>
-                                    
                                 </Text>
                             </ResumeProject>
                         </TimeLine>
@@ -49,6 +47,7 @@ const ResumePage = () => {
                                             development and conditionals.
                                    </LiItem>
                                     </ul>
+                                      <Img src={weatherUrl}></Img>
                                 </Text>
                             </ResumeProject>
                         </TimeLine>
