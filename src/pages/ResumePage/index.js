@@ -23,9 +23,9 @@ const ResumePage = () => {
                                 <Text>
                                     <ul>
                                         <LiItem><a href=" "><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
-                                        <LiItem>Website building with JavaScript, CSS, HTML, Jquery and Bootstrap.
+                                        <LiItem>Website building with ReactJS, React router, styledComponent and Bootstrap.
                                         </LiItem>
-                                        <LiItem>Enable message sending, download resuem, format verification and responsive layout
+                                        <LiItem>Enable message sending, download resuem, format verification and responsive layout.
                                         </LiItem>
                                     </ul>
                                 </Text>
@@ -41,13 +41,11 @@ const ResumePage = () => {
                                         <LiItem><a href=" "><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
                                         <LiItem>
                                             Built a web app enables user to view the weather forecast. 
-                                            User can switch weather condition for 5 days in the future or 10 days.
+                                            User can search city via cityname and get 5 days weather. The page has two default citys' weather.
                                     </LiItem>
-                                        <LiItem>Used React.js HTML5, CSS3, and JavaScript to build the front-end, 
-                                            together with Responsive Design.</LiItem>
-                                        <LiItem>Used Node.js, Express and RESTful API for back-end 
-                                            development and conditionals.
-                                   </LiItem>
+                                        <LiItem>Used ReactJS, styledComponent to build a single page application, 
+                                            used openWeather API to grab data.</LiItem>
+                                         <LiItem>Completed ErrorHandling, Loading function and responsive design.</LiItem>
                                     </ul>
                                       <Img src={weatherUrl} />
                                 </Text>
@@ -61,6 +59,13 @@ const ResumePage = () => {
                                 <Text>
                                     <ul>
                                     <LiItem><a href="http://bestravellers.com/"><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
+                                    <LiItem>Worked in an agile team and cooperated with BA, UI, Devops and other developers to built a booking travel platform.</LiItem>
+                                    <LiItem>key feathes: Authentication, Reset Password, Update personal information, Search and filter travel packages,
+                                    Book travel packages,Payment via stripe payment integration, Rate and comment the travel package
+                                    </LiItem>
+                                    <LiItem>Tech Stack: React.js Redux, React router, Styled Component, Stripe, Mapbox,Redux-thunk,
+                                    Express, Express-validator, Jsonwebtoken, Mongoose
+                                    </LiItem>
                                     <Img src={projectUrl} />
                                     </ul>
                                 </Text>

@@ -40,26 +40,26 @@ class WorkPage extends Component {
                 <Skill>
                     <SKillItem>
                         <ListMedia ><FontAwesomeIcon icon={faReact} /></ListMedia >
-                        <Liststyle>HTML5, CSS3, Sass/Less, JavaScript, ES6, Bootstrap, Material
-                    Design, Reactjs, Redux, Styled-components, RxJS, Typescript, React, Router,
-                    jQuery, Responsive Web Design, Storybook
+                        <Liststyle><strong>Front-end:</strong> HTML, CSS3, Sass/Less, JavaScript, ES6, Bootstrap, Material
+                    Design, Reactjs, Redux, Styled-components, Typescript, Router, Webpack, NPM
+                    Responsive Web Design, Storybook
                         </Liststyle>
                     </SKillItem>
                     <SKillItem>
                         <ListMedia ><FontAwesomeIcon icon={faJava} /></ListMedia >
-                        <Liststyle>Nodejs, Express, Java, Python, npm, webpack, Docker, LoopBack</Liststyle>
-                    </SKillItem>
-                    <SKillItem>
-                        <ListMedia ><FontAwesomeIcon icon={faDatabase} /></ListMedia >
-                        <Liststyle>SQL, NoSQL, MySQL, MongoDB</Liststyle>
+                        <Liststyle><strong>Back-end:</strong> Node.js, Express.js, Java, MongoDB, JWT Token, Joi,  </Liststyle>
                     </SKillItem>
                     <SKillItem>
                         <ListMedia ><FontAwesomeIcon icon={faCloud} /></ListMedia >
-                        <Liststyle>AWS EC2, S3, ECS, CloudFront, Cognito, Lambda, Route 53, Docker, Azure</Liststyle>
+                        <Liststyle><strong>Cloud Services:</strong> AWS EC2, S3, ECS, Lambda, Route 53, Docker, Azure, Netlify</Liststyle>
                     </SKillItem>
                     <SKillItem>
                         <ListMedia ><FontAwesomeIcon icon={faTools} /></ListMedia >
-                        <Liststyle>Git, Rollup, Bitbucket, JIRA, Chrome DevTool, Slack, SourceTree </Liststyle>
+                        <Liststyle><strong>Develop Tools:</strong> Git, Bitbucket, JIRA, Kanban, Postman, Chrome DevTool, SourceTree </Liststyle>
+                    </SKillItem>
+                    <SKillItem>
+                        <ListMedia ><FontAwesomeIcon icon={faDatabase} /></ListMedia > 
+                        <Liststyle><strong>Other:</strong> Agile, Scrum, Kanban, Jest, RESTful APIs, SEO, Google Analytics </Liststyle>
                     </SKillItem>
                 </Skill>
             </Right>
