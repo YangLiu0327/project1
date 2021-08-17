@@ -1,5 +1,7 @@
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import weatherUrl from '../../assets/images/weather.png';
+import projectUrl from '../../assets/images/project.png';
+
 import React from 'react';
 import {
     Wrap, Title, TimeLines, Experince, ResumeProject, TimeLine,
@@ -47,17 +49,20 @@ const ResumePage = () => {
                                             development and conditionals.
                                    </LiItem>
                                     </ul>
-                                      <Img src={weatherUrl}></Img>
+                                      <Img src={weatherUrl} />
                                 </Text>
                             </ResumeProject>
                         </TimeLine>
                         <TimeLine>
                             <ResumeProject>
                                 <ProjectTitle>Project 3: Business Project
-                                    <Date>May 2021 - *** 2021</Date>
+                                    <Date>May 2021 - Aug 2021</Date>
                                 </ProjectTitle>
                                 <Text>
-                                    <LiItem><a href="#"><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
+                                    <ul>
+                                    <LiItem><a href="http://bestravellers.com/"><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
+                                    <Img src={projectUrl} />
+                                    </ul>
                                 </Text>
                             </ResumeProject>
                         </TimeLine>

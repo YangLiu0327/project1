@@ -6,8 +6,6 @@ export const Wrap = styled.div`
   display: flex;
   flex: 1;
   `
-
-
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -23,8 +21,6 @@ margin-bottom: 100px;`
 export const Text = styled.ul`
 padding: 10px;
 ` 
-
-
 
 export const ResumeProject= styled.div`
 padding: 15px 20px 10px;
@@ -44,7 +40,6 @@ display: flex;
 padding: 10px;
 width: 100%;
 height: auto;`
-
 
 export const ResumeEdu = styled.div`
 text-align: left;
