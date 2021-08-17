@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrap, Content, Title, Label } from './style';
+import { Wrap, Content, Title, Label, Textarea } from './style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Button} from '../WorkPage/style';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
@@ -55,8 +55,9 @@ const contactPage = () => {
                             <div className="col-md-12">
                                 <div className="form-group">
                                     <Label  htmlFor="form_message">Message *</Label >
-                                    <textarea id="form_message" name="message" className="form-control" placeholder="Message for me *"
-                                        rows="4" required data-error="Please,leave us a message."></textarea>
+                                    <Textarea id="form_message" name="message" className="form-control" placeholder="Message for me *"
+                                    rows="4" resize="none"
+                                    required data-error="Please,leave us a message."></Textarea>
                                     <div className="help-block with-errors"></div>
                                 </div>
                             </div>

@@ -6,8 +6,6 @@ display: flex;
 flex: 1;
 `
 
-
-
 export const Content = styled.div`
 margin-top: 50px;
 padding: 30px;
@@ -18,8 +16,8 @@ margin-bottom: 120px;
 border-radius: 20px;
 box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
 `
-
-
+export const  Textarea = styled.textarea`
+resize: none;`
 export const Title = styled.p`
 marigin: 0 50px;
 padding: 20px;

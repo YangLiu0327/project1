@@ -8,11 +8,9 @@ import ContactPage from './ContactPage';
 import {Wrap, Header, Box, Boxleft,Boxright,Linkstyle,Para, Content,Footer} from  './style';
 
 class App extends Component {
-
   render(){
   // withRouter 提供的属性，获取当前路由
   const { location } = this.props;
-
   return (
    <Wrap>
      {/* header nav */}
@@ -31,11 +29,12 @@ class App extends Component {
       </Header>
       {/* content */}
       <Content>
-        <Route path="/" exact component={HomePage} />
+        <Route path="/project1-react" exact component={HomePage} />
+        <Route path="/home" exact component={HomePage} />
         <Route path="/about"  exact component={WorkPage} />
         <Route path="/resume" exact  component={ResumePage} />
         <Route path="/contact"  exact component={ContactPage} />
-      
+        <Route path="/" exact component={HomePage} />
         {/* 动态路由，传递动态的id */}
         {/* <Route path="/works/:id"  exact component={ResumePage} /> */}
       </Content>
