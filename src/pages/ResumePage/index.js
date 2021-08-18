@@ -22,7 +22,8 @@ const ResumePage = () => {
                                 </ProjectTitle>
                                 <Text>
                                     <ul>
-                                        <LiItem><a href=" "><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
+                                        {/* <LiItem><a href=" "><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem> */}
+                                        <LiItem>Bulied a personal website that introduces me and displays my projects</LiItem>
                                         <LiItem>Website building with ReactJS, React router, styledComponent and Bootstrap.
                                         </LiItem>
                                         <LiItem>Enable message sending, download resuem, format verification and responsive layout.
@@ -45,7 +46,7 @@ const ResumePage = () => {
                                     </LiItem>
                                         <LiItem>Used ReactJS, styledComponent to build a single page application, 
                                             used openWeather API to grab data.</LiItem>
-                                         <LiItem>Completed ErrorHandling, Loading function and responsive design.</LiItem>
+                                         <LiItem>Completed Search city via cityname, Check cityname and responsive design.</LiItem>
                                     </ul>
                                       <Img src={weatherUrl} />
                                 </Text>

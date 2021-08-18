@@ -58,7 +58,8 @@ export const ProjectTitle = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-font-size: 16px;`
+font-size: 16px;
+font-weight: 600;`
 
 export const TimeLines = styled.div`
 cursor: pointer;

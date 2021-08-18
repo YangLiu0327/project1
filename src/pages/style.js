@@ -10,7 +10,7 @@ export const Content = styled.div`
     text-align: center;
     font-family: Poppins,sans-serif;`
 export const Header = styled.div`
-   z-index: 100;
+    z-index: 100;
     display: flex;
     height: 60px;
     box-shadow: 0 3px 6px 0 #d4d0d0;
