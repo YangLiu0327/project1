@@ -1,7 +1,6 @@
 import React from 'react';
-import { Wrap, Content, Title, Label, Textarea } from './style';
+import { Wrap, Content, Title, Label, Textarea, Button } from './style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Button } from '../WorkPage/style';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -15,7 +14,7 @@ const ContactPage = () => {
             <Content>
                 <Title>CONTACT ME</Title>
                 <form id="contact-form my-form" method="POST"
-                    onSubmit={handleSubmit}
+                // onSubmit={handleSubmit}
                     action="https://formspree.io/f/mbjqpkaq" role="form">
                     <div className="messages"></div>
                     <div className="controls">

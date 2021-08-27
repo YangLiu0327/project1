@@ -39,7 +39,7 @@ const ResumePage = () => {
                                 </ProjectTitle>
                                 <Text>
                                     <ul>
-                                        <LiItem><a href=" "><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
+                                        <LiItem><a href="http://yang-weather-app-0327.s3-website-ap-southeast-2.amazonaws.com/"><FontAwesomeIcon icon={faLink} /> Demo url</a></LiItem>
                                         <LiItem>
                                             Built a web app enables user to view the weather forecast. 
                                             User can search city via cityname and get 5 days weather. The page has two default citys' weather.

@@ -6,14 +6,14 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faReact, faJava } from '@fortawesome/free-brands-svg-icons';
 import { faCloud, faDatabase, faDownload, faTools } from '@fortawesome/free-solid-svg-icons';
 import workurl from '../../assets/images/work.png';
-
+import { Link } from 'react-router-dom';
 
 class WorkPage extends Component {
     render() {
-    const download =() =>{
-        const url='/file/jianli000.pdf';
-        window.location.href= url;
-    }
+    // const download =() =>{
+    //     const url = '/file/resume.pdf';
+    //     window.location.href= url;
+    // }
         return <Wrap>
             <Left>
                 <Img src={workurl} alt=""></Img>
@@ -22,14 +22,21 @@ class WorkPage extends Component {
                     <a href="https://github.com/YangLiu0327" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                 </Socialmedia>
                 <Title>Title</Title>
-                <P>Junior Web Developer</P>
+                <P>Web Developer</P>
                 <Title>Location</Title>
                 <P>Sydney, Australia</P>
                 <Title>Email</Title>
                 <P>yangliuwork0327@qq.com</P>
                 <Title>ATTACHMENT</Title>
-                <Button onClick={download}>
-                    <FontAwesomeIcon icon={faDownload}/ > Download Resume</Button>
+                {/* onClick={download} */}
+                {/* <Button> */}
+                <Button>
+                <Link to="/file/resume.pdf" target="_blank" download>
+                    Download Resume
+                </Link>
+                    <FontAwesomeIcon icon={faDownload}/ >
+                </Button>
+                {/* </Button> */}
             </Left>
             <Right>
                 <RightTitle >DESCRIPTION</RightTitle >

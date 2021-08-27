@@ -68,50 +68,19 @@ line-height: 5px;
 export const Selected = styled.p`
 color: blueviolet;`
 
-export const Button = styled.button`
+export const Button = styled.div`
+display: flex;
+justify-content: space-between;
 margin-top: 10px;
-border: 0;
-background: none;
 text-transform: uppercase;
 color: #007bff;
 font-weight: bold;
 position: relative;
-outline: none;
-padding: 10px 20px;
-box-sizing: border-box;
+padding: 10px 65px;
 width: 300px;
 font-size: 14px;
-
-&::before, &::after{
-    box-sizing: inherit;
-    position: absolute;
-    content: "";
-    border: 2px solid transparent;
-    width: 0;
-    height: 0;
-}
-&::after{
-    bottom: 0;
-    right: 0;
-}
-&::before{
-    top: 0;
-    left: 0;
-}
-&:hover::before, &:hover::after{
-    width: 100%;
-    height: 100%;
-}
- &:hover::after {
-    border-bottom-color: #007bff;
-    border-left-color: #007bff;
-    transition: border-color 0s ease-out 0.4s, width 0.2s ease-out 0.4s, height 0.2s ease-out 0.6s;
-}
- &:hover::before{
-    border-top-color: #007bff;
-    border-right-color: #007bff;
-    transition: width 0.2s ease-out, height 0.2s ease-out 0.2s;
-}
+border-style: solid;
+border-color: #007bff;
 `
 
 export const Para = styled.p`
