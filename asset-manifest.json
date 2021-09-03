@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/project1-react/static/css/main.9f71ad1d.chunk.css",
-    "main.js": "/project1-react/static/js/main.36395799.chunk.js",
-    "main.js.map": "/project1-react/static/js/main.36395799.chunk.js.map",
+    "main.css": "/project1-react/static/css/main.d26c9be6.chunk.css",
+    "main.js": "/project1-react/static/js/main.4b43a835.chunk.js",
+    "main.js.map": "/project1-react/static/js/main.4b43a835.chunk.js.map",
     "runtime-main.js": "/project1-react/static/js/runtime-main.d65843f1.js",
     "runtime-main.js.map": "/project1-react/static/js/runtime-main.d65843f1.js.map",
     "static/js/2.de0c1d5e.chunk.js": "/project1-react/static/js/2.de0c1d5e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1e1aba72.chunk.js": "/project1-react/static/js/3.1e1aba72.chunk.js",
     "static/js/3.1e1aba72.chunk.js.map": "/project1-react/static/js/3.1e1aba72.chunk.js.map",
     "index.html": "/project1-react/index.html",
-    "static/css/main.9f71ad1d.chunk.css.map": "/project1-react/static/css/main.9f71ad1d.chunk.css.map",
+    "static/css/main.d26c9be6.chunk.css.map": "/project1-react/static/css/main.d26c9be6.chunk.css.map",
     "static/js/2.de0c1d5e.chunk.js.LICENSE.txt": "/project1-react/static/js/2.de0c1d5e.chunk.js.LICENSE.txt",
     "static/media/project.c30c6360.png": "/project1-react/static/media/project.c30c6360.png",
     "static/media/weather.d5148d50.png": "/project1-react/static/media/weather.d5148d50.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.d65843f1.js",
     "static/js/2.de0c1d5e.chunk.js",
-    "static/css/main.9f71ad1d.chunk.css",
-    "static/js/main.36395799.chunk.js"
+    "static/css/main.d26c9be6.chunk.css",
+    "static/js/main.4b43a835.chunk.js"
   ]
 }
