@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const Wrap = styled.div`
+  font-family: Poppins, sans-serif;
   justify-content: center;
   display: flex;
   flex: 1;
@@ -20,6 +21,7 @@ margin-bottom: 100px;`
 
 export const Text = styled.ul`
 padding: 10px;
+font-family: Poppins, sans-serif;
 ` 
 
 export const ResumeProject= styled.div`
@@ -37,7 +39,7 @@ box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
 
 export const Img = styled.img`
 display: flex;
-padding: 10px;
+padding: 30px 10px 10px 10px;
 width: 100%;
 height: auto;`
 

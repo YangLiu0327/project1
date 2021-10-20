@@ -22,21 +22,20 @@ class WorkPage extends Component {
                     <a href="https://github.com/YangLiu0327" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                 </Socialmedia>
                 <Title>Title</Title>
-                <P>Web Developer</P>
+                <P>Front end Developer</P>
                 <Title>Location</Title>
                 <P>Sydney, Australia</P>
                 <Title>Email</Title>
-                <P>yangliuwork0327@qq.com</P>
+                <P>liuyangyangyang1992@gmail.com</P>
                 <Title>ATTACHMENT</Title>
-                {/* onClick={download} */}
-                {/* <Button> */}
                 <Button>
-                <Link to="/file/resume.pdf" target="_blank" download>
-                    Download Resume
+                <Link 
+                style={{textDecoration: 'none'}}
+                to="/file/resume.pdf" target="_blank" download>
+                    Download Resume 
                 </Link>
                     <FontAwesomeIcon icon={faDownload}/ >
                 </Button>
-                {/* </Button> */}
             </Left>
             <Right>
                 <RightTitle >DESCRIPTION</RightTitle >

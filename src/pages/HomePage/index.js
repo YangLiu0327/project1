@@ -10,7 +10,7 @@ class HomePage extends Component{
         return <Wrap>
                  {/* introduce */}
                  <Brief>   
-                     <Photo src={yangUrl} alt=""></Photo>
+                     <Photo src={yangUrl} alt="yang-phtot"></Photo>
                      < Title> Yang LIU </ Title>
                      <List >
                          <ListItem > Front-end Developer</ListItem >

@@ -2,7 +2,7 @@ import React from 'react';
 import { Wrap, Content, Title, Label, Textarea, Button } from './style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 const ContactPage = () => {
     const [state, handleSubmit] = useForm("mbjqpkaq");

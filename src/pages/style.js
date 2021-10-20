@@ -37,8 +37,8 @@ color: transparent;
 export const Boxright = styled.div`
 display: inline-flex;
 justify-content: flex-start;
+font-weight: 600;
 `
-
 export const Linkstyle = styled.div`
  &:hover{
     text-decoration: none;
@@ -49,14 +49,26 @@ export const Linkstyle = styled.div`
  &.active{
    color: blueviolet;
  }
+ @media screen and (max-width: 500px) {
+     display: none;
+ }
 `
-
-
-
-
+export const Icon = styled.a`
+  @media screen and (min-width: 320px) {
+    display: block;
+    font-size: 18px;
+    color: red;
+    &:hover {
+      color: red;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
+`
 export const Para = styled.p`
     margin: 0 10px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px 0;
     `
 

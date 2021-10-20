@@ -68,21 +68,22 @@ line-height: 5px;
 export const Selected = styled.p`
 color: blueviolet;`
 
-export const Button = styled.div`
-display: flex;
-justify-content: space-between;
-margin-top: 10px;
-text-transform: uppercase;
-color: #007bff;
-font-weight: bold;
-position: relative;
-padding: 10px 65px;
-width: 300px;
-font-size: 14px;
-border-style: solid;
-border-color: #007bff;
-`
-
+export const Button = styled.button`
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #007bff;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+//   background-color: #B0C4DE;
+  position: relative;
+  padding: 10px;
+  width: 80%;
+  font-size: 14px;
+  &:hover{
+    background-color: #f5e5f1;
+  }
+ `
 export const Para = styled.p`
   padding: 0 15px;
   margin: 0;
@@ -92,6 +93,7 @@ export const RightTitle = styled.h3`
 padding 10px 5px;
 font-weight: 600;
 font-size: 20px;
+margin-top: 20px;
 text-shadow: 2px 2px 2px #007bff;
 `
 
