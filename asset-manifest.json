@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project1-react/static/css/main.d26c9be6.chunk.css",
-    "main.js": "/project1-react/static/js/main.bb0fb74d.chunk.js",
-    "main.js.map": "/project1-react/static/js/main.bb0fb74d.chunk.js.map",
+    "main.js": "/project1-react/static/js/main.6027ae50.chunk.js",
+    "main.js.map": "/project1-react/static/js/main.6027ae50.chunk.js.map",
     "runtime-main.js": "/project1-react/static/js/runtime-main.d5c5b32d.js",
     "runtime-main.js.map": "/project1-react/static/js/runtime-main.d5c5b32d.js.map",
     "static/js/2.1608d2eb.chunk.js": "/project1-react/static/js/2.1608d2eb.chunk.js",
@@ -13,13 +13,13 @@
     "static/css/main.d26c9be6.chunk.css.map": "/project1-react/static/css/main.d26c9be6.chunk.css.map",
     "static/js/2.1608d2eb.chunk.js.LICENSE.txt": "/project1-react/static/js/2.1608d2eb.chunk.js.LICENSE.txt",
     "static/media/project.c30c6360.png": "/project1-react/static/media/project.c30c6360.png",
-    "static/media/weather.d5148d50.png": "/project1-react/static/media/weather.d5148d50.png",
+    "static/media/weather.72d32b7d.png": "/project1-react/static/media/weather.72d32b7d.png",
     "static/media/yang.84fb42c9.jpg": "/project1-react/static/media/yang.84fb42c9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d5c5b32d.js",
     "static/js/2.1608d2eb.chunk.js",
     "static/css/main.d26c9be6.chunk.css",
-    "static/js/main.bb0fb74d.chunk.js"
+    "static/js/main.6027ae50.chunk.js"
   ]
 }
