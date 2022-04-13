@@ -27,6 +27,7 @@ export const DropdownBox = styled.div`
   right: 0;
   background-color: #e6f3ff;
   z-index: 9999;
+  
   @media screen and (min-width: 320px) {
     top: 50px;
     height: 100vh;
@@ -39,7 +40,7 @@ export const DropdownBox = styled.div`
             ${rotateMenu} .5s ease-in-out forwards
           `};
     transform-origin: top center;
-    }
+
   @media screen and (min-width: 500px) {
     display: none;
   }
