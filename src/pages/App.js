@@ -62,10 +62,6 @@ const App = () => {
       {/* content */}
       <Content>
         <Routes>
-          {/* <Route path='/project1-react' element={<HomePage />} />
-          <Route path='/about' element={<WorkPage />} />
-          <Route path='/resume' element={<ResumePage />} />
-          <Route path='/contact' element={<ContactPage />} /> */}
           {ITEMS.map(({title, component})=>
           (
           <Route 
@@ -84,6 +80,6 @@ const App = () => {
     </Wrap>
   );
 }
-// }
+
 
 export default App
