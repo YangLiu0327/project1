@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const Wrap= styled.div`
     display: flex;
@@ -39,16 +39,23 @@ display: inline-flex;
 justify-content: flex-start;
 font-weight: 600;
 `
-export const Linkstyle = styled.div`
- &:hover{
+export const LinkContainer = styled.div`
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 5px 0;
+    text-decoration: none;  
+   
+  ${({ active }) => active && css`
+        background-color: #f5e5f1;  
+        border-radius: 10px;
+  }
+`}
+ &:hover {
     text-decoration: none;
     background-color: #f5e5f1;
-    color: white;
     border-radius: 10px;
  }
- &.active{
-   color: blueviolet;
- }
+
  @media screen and (max-width: 500px) {
      display: none;
  }
@@ -66,11 +73,6 @@ export const Icon = styled.a`
     display: none;
   }
 `
-export const Para = styled.p`
-    margin: 0 10px;
-    font-size: 16px;
-    padding: 5px 0;
-    `
 
 export const Footer = styled.div`
 text-align: center;
