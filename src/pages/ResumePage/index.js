@@ -9,6 +9,7 @@ import {
 } from './style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const ResumePage = () => {
+
     return (
         <Wrap>
             <Container>
